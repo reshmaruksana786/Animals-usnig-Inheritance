@@ -14,6 +14,10 @@
 		8387090522FBD8B5005F7D71 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8387090322FBD8B5005F7D71 /* LaunchScreen.storyboard */; };
 		8387091022FBD8B6005F7D71 /* Animals_usnig_InheritanceTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8387090F22FBD8B6005F7D71 /* Animals_usnig_InheritanceTests.swift */; };
 		8387091B22FBD8B6005F7D71 /* Animals_usnig_InheritanceUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8387091A22FBD8B6005F7D71 /* Animals_usnig_InheritanceUITests.swift */; };
+		8387092922FBD942005F7D71 /* Animals.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8387092822FBD942005F7D71 /* Animals.swift */; };
+		8387092D22FBE2F9005F7D71 /* Omnivorous.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8387092C22FBE2F9005F7D71 /* Omnivorous.swift */; };
+		8387092F22FBE333005F7D71 /* Herbivorous.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8387092E22FBE333005F7D71 /* Herbivorous.swift */; };
+		8387093122FBE3D9005F7D71 /* Carnivorous.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8387093022FBE3D9005F7D71 /* Carnivorous.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +51,10 @@
 		8387091622FBD8B6005F7D71 /* Animals usnig InheritanceUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Animals usnig InheritanceUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		8387091A22FBD8B6005F7D71 /* Animals_usnig_InheritanceUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Animals_usnig_InheritanceUITests.swift; sourceTree = "<group>"; };
 		8387091C22FBD8B6005F7D71 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8387092822FBD942005F7D71 /* Animals.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Animals.swift; sourceTree = "<group>"; };
+		8387092C22FBE2F9005F7D71 /* Omnivorous.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Omnivorous.swift; sourceTree = "<group>"; };
+		8387092E22FBE333005F7D71 /* Herbivorous.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Herbivorous.swift; sourceTree = "<group>"; };
+		8387093022FBE3D9005F7D71 /* Carnivorous.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Carnivorous.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -103,6 +111,10 @@
 				8387090122FBD8B5005F7D71 /* Assets.xcassets */,
 				8387090322FBD8B5005F7D71 /* LaunchScreen.storyboard */,
 				8387090622FBD8B5005F7D71 /* Info.plist */,
+				8387092822FBD942005F7D71 /* Animals.swift */,
+				8387092C22FBE2F9005F7D71 /* Omnivorous.swift */,
+				8387092E22FBE333005F7D71 /* Herbivorous.swift */,
+				8387093022FBE3D9005F7D71 /* Carnivorous.swift */,
 			);
 			path = "Animals usnig Inheritance";
 			sourceTree = "<group>";
@@ -259,8 +271,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8387092D22FBE2F9005F7D71 /* Omnivorous.swift in Sources */,
 				838708FD22FBD8B5005F7D71 /* ViewController.swift in Sources */,
+				8387092922FBD942005F7D71 /* Animals.swift in Sources */,
+				8387092F22FBE333005F7D71 /* Herbivorous.swift in Sources */,
 				838708FB22FBD8B5005F7D71 /* AppDelegate.swift in Sources */,
+				8387093122FBE3D9005F7D71 /* Carnivorous.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
